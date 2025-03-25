@@ -46,7 +46,7 @@ CREATE TABLE SEATING_DETAILS(seat_type VARCHAR(10) PRIMARY KEY, luggage_limit VA
 conn.commit()
 print("SEATING_DETAILS Table created.")
 
-conn.execute('''INSERT INTO BUS_DETAILS VALUES("B001", "RedBus", "New York", "Boston", 50, "08:00:00", "12:00:00", 30.00, 50.00);''')
+conn.execute('''INSERT INTO BUS_DETAILS VALUES("B001", "StarBus", "New York", "Boston", 50, "08:00:00", "12:00:00", 30.00, 50.00);''')
 conn.execute('''INSERT INTO BUS_DETAILS VALUES("B002", "Greyhound", "San Francisco", "Los Angeles", 40, "09:30:00", "14:00:00", 25.00, 45.00);''')
 conn.execute('''INSERT INTO BUS_DETAILS VALUES("B003", "Megabus", "Chicago", "Washington", 60, "10:00:00", "18:00:00", 35.00, 55.00);''')
 
@@ -57,7 +57,7 @@ conn.execute('''INSERT INTO STATION_DETAILS VALUES("LA1", "Los Angeles Bus Stati
 conn.execute('''INSERT INTO STATION_DETAILS VALUES("CHI1", "Chicago Bus Station", "B003");''')
 conn.execute('''INSERT INTO STATION_DETAILS VALUES("WAS1", "Washington Bus Station", "B003");''')
 
-conn.execute('''INSERT INTO LOGIN_DETAILS VALUES("C001", "Yogyansh", "1234567890", "password123");''')
+conn.execute('''INSERT INTO LOGIN_DETAILS VALUES("C001", "Sarthak", "1234567890", "password123");''')
 conn.execute('''INSERT INTO LOGIN_DETAILS VALUES("C002", "Anant", "8797495485", "aster");''')
 
 conn.execute('''
